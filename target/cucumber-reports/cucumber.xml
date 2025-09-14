@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="150.716" tests="10" skipped="0" failures="1" errors="0">
+<testcase classname="Verification Module" name="Verify the verfication module is present or not" time="13.218">
+<system-out><![CDATA[
+When Login in the healthapp application.....................................passed
+Given Scroll & click till "Verification" menu on the side bar...............passed
+Then Verify that the user is able to navigate to "Verification" section.....passed
+]]></system-out>
+</testcase>
+<testcase classname="Verification Module" name="Verify all sub-modules are displayed correctly after Clicking on the &quot;verification&quot; Module." time="11.177">
+<system-out><![CDATA[
+When Login in the healthapp application.....................................passed
+Given Scroll & click till "Verification" menu on the side bar...............passed
+Then Verify that the user is able to navigate to "Verification" section.....passed
+Then Verify that "Inventory" button is visible..............................passed
+Then Verify that "Pharmacy" button is visible...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verification Module" name="Verify the presence of Requisition tab in inventory section with all fields." time="23.563">
+<system-out><![CDATA[
+When Login in the healthapp application.....................................passed
+Given Scroll & click till "Verification" menu on the side bar...............passed
+Then Verify that the user is able to navigate to "Verification" section.....passed
+Then Verify that "Inventory" button is visible..............................passed
+Then Verify that "Pharmacy" button is visible...............................passed
+And Click on "Requisition" under "Inventory"................................passed
+Then Verify these elements are visible on the page Requisition, Purchase Request, Purchase Order, GR Quality Inspection, Ok, print, First, Previous, Next, Last, view, search bar, Requisition Status, Date range, Pending, Approved, Rejected.passed
+]]></system-out>
+</testcase>
+<testcase classname="Verification Module" name="Verify to navigate on another sub module after open the inventory module" time="17.448">
+<system-out><![CDATA[
+When Login in the healthapp application.....................................passed
+Given Scroll & click till "Verification" menu on the side bar...............passed
+Then Verify that the user is able to navigate to "Verification" section.....passed
+And Click on "Pharmacy" tab.................................................passed
+Then Verify that the user is able to navigate to "Verification/Pharmacy/" section.passed
+]]></system-out>
+</testcase>
+<testcase classname="Verification Module" name="Verify to navigate on another sub tab after open the Requisition tab" time="21.1">
+<system-out><![CDATA[
+When Login in the healthapp application.....................................passed
+Given Scroll & click till "Verification" menu on the side bar...............passed
+Then Verify that the user is able to navigate to "Verification" section.....passed
+And Click on "Purchase Order" under "Inventory".............................passed
+Then Verify that the user is able to navigate to "Verification/Inventory/PurchaseOrder" section.passed
+]]></system-out>
+</testcase>
+<testcase classname="Verification Module" name="Verify to search the data by picking the date filter" time="13.199">
+<system-out><![CDATA[
+When Login in the healthapp application.....................................passed
+Given Scroll & click till "Verification" menu on the side bar...............passed
+And Choose the date from Jan 2020 to March 2024.............................passed
+And Click on the "all" Radio button from List by Verification Status........passed
+And Click on OK button......................................................passed
+Then Verify that all the dates present inside the requested date are within the range.passed
+]]></system-out>
+</testcase>
+<testcase classname="Verification Module" name="Verify the tooltip and its text present on hover the mouse on Star" time="8.758">
+<system-out><![CDATA[
+When Login in the healthapp application.....................................passed
+Given Scroll & click till "Verification" menu on the side bar...............passed
+Then Hover on the star and Verify tooltip text as "Remember this Date"......passed
+]]></system-out>
+</testcase>
+<testcase classname="Verification Module" name="Verify dates are remembered correclty" time="11.2">
+<failure type="org.openqa.selenium.UnhandledAlertException" message="unexpected alert open: {Alert text : Dates are INVALID, please check error message.}
+  (Session info: chrome=140.0.7339.128): Dates are INVALID, please check error message.
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f6adfc4b6a5eb9010493938d49479711, findElement {using=xpath, value=//button[@class='btn green btn-success']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\basith ali\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54984}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54984/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f6adfc4b6a5eb9010493938d49479711">
+<![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Dates are INVALID, please check error message.}
+  (Session info: chrome=140.0.7339.128): Dates are INVALID, please check error message.
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f6adfc4b6a5eb9010493938d49479711, findElement {using=xpath, value=//button[@class='btn green btn-success']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\basith ali\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54984}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54984/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f6adfc4b6a5eb9010493938d49479711
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:130)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at pages.VerificationPage_PL1.clickOkButton(VerificationPage_PL1.java:277)
+	at steps.VerificationStep_PL1.click_ok(VerificationStep_PL1.java:82)
+	at ✽.Click on OK button(file:///C:/Users/basith%20ali/OneDrive/Desktop/Wipro%20Training/VM-Java-Cucumber-Selenium-HA-Verification--PL1-10TCs-Template-main/src/test/java/features/Verification_PL2.feature:60)
+]]>
+</failure>
+<system-out><![CDATA[
+When Login in the healthapp application.....................................passed
+Given Scroll & click till "Verification" menu on the side bar...............passed
+Then Verify that the user is able to navigate to "Verification" section.....passed
+And Choose the date from Jan 2020 to March 2024.............................passed
+And Click on tooltip button.................................................passed
+And Click on OK button......................................................failed
+And Click on "Pharmacy" tab.................................................skipped
+And Click on "Inventory" tab................................................skipped
+Then Verify that the date range remains the same............................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Verification Module" name="Verify data range by Select &quot;one week&quot; option from drop down" time="16.693">
+<system-out><![CDATA[
+When Login in the healthapp application.....................................passed
+Given Scroll & click till "Verification" menu on the side bar...............passed
+Then Verify that the user is able to navigate to "Verification" section.....passed
+And Select 'Last 3 Months' option from the date range dropdown..............passed
+And Click on OK button......................................................passed
+Then Verify that all the dates present inside the requested date are within the range.passed
+]]></system-out>
+</testcase>
+<testcase classname="Verification Module" name="Verify following radio buttons are selectable:Pending, Approved, Rejected &amp; All" time="11.967">
+<system-out><![CDATA[
+When Login in the healthapp application.....................................passed
+Given Scroll & click till "Verification" menu on the side bar...............passed
+Then Verify that the user is able to navigate to "Verification" section.....passed
+And Click on the "pending" Radio button from List by Verification Status....passed
+And Click on the "approved" Radio button from List by Verification Status...passed
+And Click on the "rejected" Radio button from List by Verification Status...passed
+And Click on the "all" Radio button from List by Verification Status........passed
+]]></system-out>
+</testcase>
+</testsuite>

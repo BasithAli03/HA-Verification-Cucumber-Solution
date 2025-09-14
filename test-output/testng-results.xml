@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="9" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-14T23:54:00 IST" name="Suite" finished-at="2025-09-14T23:56:33 IST" duration-ms="153690">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner1@36b4091c]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-09-14T23:54:00 IST" name="Cucumber Test Runner 1" finished-at="2025-09-14T23:56:33 IST" duration-ms="153690">
+      <class name="runner.TestRunner1">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner1@36b4091c]" started-at="2025-09-14T23:54:00 IST" name="setUpClass" finished-at="2025-09-14T23:54:00 IST" duration-ms="435" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@a1689e8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner1@36b4091c]" started-at="2025-09-14T23:54:00 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-14T23:54:13 IST" duration-ms="13288" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the verfication module is present or not"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verification Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner1@36b4091c]" started-at="2025-09-14T23:54:15 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-14T23:54:26 IST" duration-ms="11194" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify all sub-modules are displayed correctly after Clicking on the "verification" Module."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verification Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner1@36b4091c]" started-at="2025-09-14T23:54:26 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-14T23:54:49 IST" duration-ms="23580" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the presence of Requisition tab in inventory section with all fields."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verification Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner1@36b4091c]" started-at="2025-09-14T23:54:50 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-14T23:55:07 IST" duration-ms="17463" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify to navigate on another sub module after open the inventory module"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verification Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner1@36b4091c]" started-at="2025-09-14T23:55:07 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-14T23:55:28 IST" duration-ms="21116" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify to navigate on another sub tab after open the Requisition tab"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verification Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner1@36b4091c]" started-at="2025-09-14T23:55:28 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-14T23:55:42 IST" duration-ms="13215" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify to search the data by picking the date filter"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verification Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner1@36b4091c]" started-at="2025-09-14T23:55:42 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-14T23:55:50 IST" duration-ms="8758" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the tooltip and its text present on hover the mouse on Star"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verification Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner1@36b4091c]" started-at="2025-09-14T23:55:50 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-14T23:56:02 IST" duration-ms="11209" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify dates are remembered correclty"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verification Module"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[unexpected alert open: {Alert text : Dates are INVALID, please check error message.}
+  (Session info: chrome=140.0.7339.128): Dates are INVALID, please check error message.
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f6adfc4b6a5eb9010493938d49479711, findElement {using=xpath, value=//button[@class='btn green btn-success']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\basith ali\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54984}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54984/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f6adfc4b6a5eb9010493938d49479711]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Dates are INVALID, please check error message.}
+  (Session info: chrome=140.0.7339.128): Dates are INVALID, please check error message.
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f6adfc4b6a5eb9010493938d49479711, findElement {using=xpath, value=//button[@class='btn green btn-success']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\basith ali\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54984}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54984/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f6adfc4b6a5eb9010493938d49479711
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:130)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at pages.VerificationPage_PL1.clickOkButton(VerificationPage_PL1.java:277)
+at steps.VerificationStep_PL1.click_ok(VerificationStep_PL1.java:82)
+at ✽.Click on OK button(file:///C:/Users/basith%20ali/OneDrive/Desktop/Wipro%20Training/VM-Java-Cucumber-Selenium-HA-Verification--PL1-10TCs-Template-main/src/test/java/features/Verification_PL2.feature:60)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner1@36b4091c]" started-at="2025-09-14T23:56:02 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-14T23:56:19 IST" duration-ms="16693" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify data range by Select "one week" option from drop down"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verification Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner1@36b4091c]" started-at="2025-09-14T23:56:19 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-14T23:56:31 IST" duration-ms="11984" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify following radio buttons are selectable:Pending, Approved, Rejected & All"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verification Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner1@36b4091c]" started-at="2025-09-14T23:56:31 IST" name="tearDownClass" finished-at="2025-09-14T23:56:33 IST" duration-ms="2589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.TestRunner1 -->
+    </test> <!-- Cucumber Test Runner 1 -->
+  </suite> <!-- Suite -->
+</testng-results>
